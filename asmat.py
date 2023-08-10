@@ -195,13 +195,12 @@ def clear():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	cetak(panel(f"""[bold green]                
- 
-                               _   
-[bold green]     /\                       | |  
-[bold green]    /  \   ___ _ __ ___   __ _| |_ 
-[bold green]   / /\ \ / __| '_ ` _ \ / _` | __|
-[bold green]  / ____ \\__ \ | | | | | (_| | |_ 
-[bold green] /_/    \_\___/_| |_| |_|\__,_|\__|
+
+[bold green]   _                       _   
+[bold green]  /_\  ___ _ __ ___   __ _| |_ 
+[bold green] //_\\/ __| '_ ` _ \ / _` | __|
+[bold green]/  _  \__ \ | | | | | (_| | |_ 
+[bold green]\_/ \_/___/_| |_| |_|\__,_|\__|
                                    
                                                                                                                                              
              """,width=90,padding=(0,8),title=f"Banner",style=f"bold white"))
@@ -209,8 +208,8 @@ def banner():
 def login123():
 	os.system('clear')
 	banner()
-	cetak(panel(f"[[bold cyan]01[bold white]] Login Using Cookies              [[bold cyan]03[bold white]] Crack Instagram \n[[bold cyan]02[bold white]] Menu Crack Without Login                [[bold cyan]04[bold white]] Check Crack Results ",width=90,title=f"[bold green]Menu Bot",padding=(0,2),style=f"bold white"))
-	bryn = input(f' [+] Pilih Menu : ')
+	cetak(panel(f"[[bold cyan]01[bold white]] Login Using Cookies                        [[bold cyan]03[bold white]] Crack Instagram \n[[bold cyan]02[bold white]] Menu Crack Without Login                [[bold cyan]04[bold white]] Check Crack Results ",width=90,title=f"[bold green]Menu Bot",padding=(0,2),style=f"bold white"))
+	bryn = input(f' [+] Select Menu : ')
 	if bryn in ['1','01']:
 		login_lagi334()
 	elif bryn in ['2','02']:
