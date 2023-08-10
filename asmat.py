@@ -208,7 +208,7 @@ def banner():
 def login123():
 	os.system('clear')
 	banner()
-	cetak(panel(f"[[bold cyan]01[bold white]] Login Using Cookies                        [[bold cyan]03[bold white]] Crack Instagram \n[[bold cyan]02[bold white]] Menu Crack Without Login                [[bold cyan]04[bold white]] Check Crack Results ",width=90,title=f"[bold green]Menu Bot",padding=(0,2),style=f"bold white"))
+	cetak(panel(f"[[bold cyan]01[bold white]] Login Using Cookies                    [[bold cyan]03[bold white]] Crack Instagram \n[[bold cyan]02[bold white]] Menu Crack Without Login                [[bold cyan]04[bold white]] Check Crack Results ",width=90,title=f"[bold green]Menu Bot",padding=(0,2),style=f"bold white"))
 	bryn = input(f' [+] Select Menu : ')
 	if bryn in ['1','01']:
 		login_lagi334()
