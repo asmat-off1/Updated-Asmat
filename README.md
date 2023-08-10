@@ -6,5 +6,5 @@
 - pip install bs4
 - rm -rf asmat
 - git clone https://github.com/asmat-off1/Updated-Asmat
-- cd asmat
+- cd Updated-Asmat
 - python asmat.py
