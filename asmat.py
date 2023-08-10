@@ -192,19 +192,22 @@ def alvino_xy(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.005)
 def clear():
 	os.system('clear')
-#------------------[ LOGO-LAKNAT ]-----------------#
-def banner():
-	cetak(panel(f"""[bold green]                
-
-[bold green]   _                       _   
-[bold green]  /_\  ___ _ __ ___   __ _| |_ 
-[bold green] //_\\/ __| '_ ` _ \ / _` | __|
-[bold green]/  _  \__ \ | | | | | (_| | |_ 
-[bold green]\_/ \_/___/_| |_| |_|\__,_|\__|
-                                   
-                                                                                                                                             
-             """,width=90,padding=(0,8),title=f"Banner",style=f"bold white"))
-#--------------------[ BAGIAN-MASUK ]--------------#
+logo4 = """
+\x1b[1;91m
+\x1b[1;92m
+\x1b[1;96m
+\x1b[1;97m     _                        _   
+\x1b[1;97m    / \   ___ _ __ ___   __ _| |_ 
+\x1b[1;97m   / _ \ / __| '_ ` _ \ / _` | __|
+\x1b[1;97m  / ___ \\__ \ | | | | | (_| | |_ 
+\x1b[1;97m /_/   \_\___/_| |_| |_|\__,_|\__|                          
+\x1b[1;93m
+\x1b[1;91m-----------------------------------------------
+\x1b[1;97m> Author : Asmat Khan
+\x1b[1;97m> Github : https://github.com/asmat-off1
+\x1b[1;97m> Facebok: AsmAt KhAn
+\x1b[1;97m> Version: 0.1
+\x1b[0;97m-----------------------------------------------"""
 def login123():
 	os.system('clear')
 	banner()
